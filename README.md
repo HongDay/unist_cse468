@@ -11,7 +11,7 @@ Exercises, assignments, and practices code are included.
     - [instruction](https://docs.google.com/document/d/12IynQxBxLK7qcemVdaV9DPIl2DpgacJ4tEqZrQE3wJg/edit?tab=t.0)
     - Source Code
     - [Prompt for ChatGPT](https://github.com/HongDay/unist_cse468/blob/main/exercise1_20201325/chatGPT_prompt.txt)
-    - visualized html link
+    - [visualized html link](https://hongday.github.io/unist_cse468/exercise1_20201325/)
 
 ### Author
 - Name : Daeeui HONG
