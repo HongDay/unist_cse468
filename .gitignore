@@ -1,0 +1,47 @@
+# node_modules: 패키지 설치 폴더 (절대 업로드 금지)
+node_modules/
+
+# 로그 파일
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 운영 체제 관련
+.DS_Store        # macOS
+Thumbs.db        # Windows
+ehthumbs.db
+
+# 환경변수 파일 (비밀번호, API 키 등 보통 여기에 저장)
+.env
+.env.local
+.env.*.local
+
+# 에디터/IDE 관련 설정
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS/에디터에서 생성되는 백업 파일
+*.swp
+*~
+*.bak
+
+# 테스트 커버리지 보고서
+coverage/
+
+# 빌드 결과물 (컴파일된 파일)
+dist/
+build/
+
+# 기타 임시 파일
+tmp/
+temp/
+
+# TypeScript 관련 (TS 프로젝트의 경우)
+*.tsbuildinfo
+.DS_Store
+.DS_Store
