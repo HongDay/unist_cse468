@@ -1,0 +1,32 @@
+Used chatGPT prompt:
+
+Objective: Create an interactive D3.js visualization using a simple Kaggle dataset 
+
+Dataset columns and 1~3 row : 
+Sales Person,Country,Product,Date,Amount,Boxes Shipped 
+Jehu Rudeforth,UK,Mint Chip Choco,04-Jan-22,"$5,320 ",180 
+Van Tuxwell,India,85% Dark Bars,01-Aug-22,"$7,896 ",94 
+Gigi Bohling,India,Peanut Butter Cubes,07-Jul-22,"$4,501 ",91 
+
+Step 1: Data Acquisition & Processing 
+Help me preprocess this Chocolate Sales Dataset from Kaggle. I need to: 
+1. Load the CSV data using d3.csv() 
+2. Parse dates and convert sales values to numbers 
+3. Group sales by product category and month 
+4. Calculate the total sales for each category 
+
+Step 2: Visual Mapping Design 
+Design a D3.js visualization for chocolate sales data that: 
+1. Creates a stacked bar chart showing monthly sales 
+2. Uses different colors for each chocolate category 
+3. Includes a legend for product categories 
+4. Implements tooltip showing sales details on hover
+
+Step 3: Rendering & Interaction 
+Complete my D3.js visualization by adding: 
+1. Smooth transitions when filtering data 
+2. Responsive design to fit different screen sizes 
+3. A simple filter control to show/hide specific chocolate categories 
+4. Proper axes formatting with month names and sales values 
+
+please provide me the code using D3.js library
