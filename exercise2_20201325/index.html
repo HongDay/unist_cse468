@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chocolate Sales Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <h2>Chocolate Sales Interactive Dashboard</h2>
+
+  <div style="display: flex; align-items: flex-start; gap: 40px;">
+    <!-- Area Chart -->
+    <div id="chart-area">
+      <svg id="focus-chart" width="800" height="250"></svg>
+      <svg id="context-chart" width="800" height="100"></svg>
+    </div>
+
+    <div id="bar-section" style="display: flex; gap: 20px;">
+      <!-- 왼쪽: bar chart만 -->
+      <svg id="bar-chart" width="600" height="350"></svg>
+    
+      <!-- 오른쪽: 필터와 범례를 세로로 쌓음 -->
+      <div style="display: flex; flex-direction: row; gap: 20px;">
+        <div id="filters" style="margin-bottom: 20px;"></div>
+        <div id="legend"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 하단: Data Table -->
+  <div id="table-wrapper">
+    <table id="datatable">
+      <thead>
+        <tr id="filter-row"></tr>
+        <tr id="header-row"></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <!-- 페이지네이션 -->
+    <div id="pagination" style="margin-top: 10px;">
+      <button id="prev">Previous</button>
+      <span id="page-info" style="margin: 0 10px;"></span>
+      <button id="next">Next</button>
+    </div>
+  </div>
+
+  <!-- ✅ Reset 버튼 -->
+  <button id="reset" style="margin-top: 15px;">Reset</button>
+
+  <!-- 🔗 State + JS 연결 -->
+  <script src="appState.js"></script>
+  <script src="datatable.js"></script>
+  <script src="areaChart.js"></script>
+  <script src="barChart.js"></script>
+  <script src="reset.js"></script>
+</body>
+</html>
