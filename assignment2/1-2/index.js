@@ -39,6 +39,13 @@ Your Code Starts here!!
 -------------------------------------------------
 */
 
+let filteredData = parsedData;
+
+filteredData = filteredData.filter(d => d.date && d.temperature);
+
+filteredData = filteredData.sort((a,b) => a.date - b.date);
+
+//console.log(filteredData);
 
 /*
 -------------------------------------------------
