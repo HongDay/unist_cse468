@@ -1,0 +1,9 @@
+svg {
+    background-color: #fafafa;
+}
+
+.foot-shape {
+    fill: #993355;
+    stroke: black;
+    stroke-width: 7;
+}
