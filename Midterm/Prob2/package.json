@@ -1,0 +1,20 @@
+{
+  "name": "midtermprob2",
+  "version": "1.0.0",
+  "description": "InfoVis Course Midterm Problem 2",
+  "main": "js/index.js",
+  "scripts": {
+    "start": "nodemon js/index.js",
+    "test": "InfoVis Course Midterm Problem 2"
+  },
+  "keywords": [
+    "InfoVis",
+    "BubbleChart"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}

@@ -17,8 +17,8 @@ d3.csv('data.csv')
                             .slice(0,10)
         console.log('Data loading complete. Work with dataset.');
         console.log(dataset);
-        //drawLines(dataset);
-        drawStack(dataset);
+        drawLines(dataset);
+        //drawStack(dataset);
     })
     .catch(error => {
         console.error('Error loading the data');
