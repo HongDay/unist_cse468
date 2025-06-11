@@ -1,0 +1,16 @@
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 56px;
+}
+
+p {
+    font-size: 24px;
+    color: blueviolet;
+}
+
+li {
+    font-style: italic;
+}

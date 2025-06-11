@@ -1,0 +1,12 @@
+/* Don't edit!*/
+#barchartcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#charts {
+    display: flex;
+    flex-direction: row;
+}
+
+/* You can add your style here! */

@@ -136,11 +136,11 @@ const zoom = d3.zoom()
     .extent([[0,0],[width, height]])
     .on("zoom", zoomed);
 
-//svg.call(zoom);
+svg.call(zoom);
 
 
 // brush
-const brush = d3.brushX()
+const brush = d3.brushX()           // x축만 되는 브러쉬
     .extent([[0, 0], [width, 80]])
     .on("brush", brushed);
 
